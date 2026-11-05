@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Unchanged */
+}
+
+.navbar {
+    width: 100%;
+    background-color: #007bff; /* Changed to a brighter blue */
+    overflow: hidden;
+    border-bottom: 2px solid #28a745; /* Changed to green for contrast */
+}
+
+.navbar h1 {
+    color: #ffffff; /* Changed to white for better visibility */
+    float: left;
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 900;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white; /* Kept white for contrast */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #28a745; /* Changed to green for hover effect */
+    color: #ffffff; /* Kept white for text on hover */
+    border-radius: 5px;
+}
+
+.side-nav {
+    background-color: #007bff; /* Changed to the same brighter blue */
+    height: 93%;
+    width: 280px;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.side-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff; /* Kept white for contrast */
+    display: block;
+}
+
+.side-nav a:hover {
+    background-color: #28a745; /* Changed to green for hover effect */
+    color: #ffffff; /* Kept white for text on hover */
+    border-radius: 5px;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+}
