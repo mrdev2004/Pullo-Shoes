@@ -235,14 +235,7 @@ Ensure you have the following installed on your machine:
 
 ---
 
-## 🔐 Credentials & Default Admin Access
 
-- **Admin Login:** Navigate to `/login` and use:
-  - **Username:** `dev`
-  - **Password:** `dev123`
-  *(Once authenticated as admin, you are redirected to `/admin/insert` to manage items and users).*
-
----
 
 ## 📡 API Endpoints
 
@@ -265,49 +258,3 @@ Ensure you have the following installed on your machine:
 | `POST` | `/userid` | Delete a user by ID |
 
 ---
-
-## 📤 How to Upload this Project to GitHub
-
-Follow these steps to upload this project to your GitHub account:
-
-### Step 1: Create a new repository on GitHub
-1. Log in to [GitHub](https://github.com/).
-2. In the top-right corner, click the **`+`** icon and select **New repository**.
-3. Name your repository (e.g. `pullo-shoes-ecommerce` or `mern-ecommerce-store`).
-4. Choose **Public** or **Private**.
-5. **Do NOT** check "Add a README file", ".gitignore", or "license" (we already created them).
-6. Click **Create repository**.
-
----
-
-### Step 2: Initialize Git in your project root
-Open a terminal in the root folder (`d:\Projects\nodejs_todoapp-master`) and execute:
-
-```bash
-# 1. Initialize a new Git repository
-git init
-
-# 2. Stage all project files (node_modules will be ignored automatically by .gitignore)
-git add .
-
-# 3. Create your first commit
-git commit -m "Initial commit: Pullo Shoes full-stack MERN e-commerce application"
-
-# 4. Set default branch to main
-git branch -M main
-
-# 5. Link your local project to your GitHub repository
-# Replace YOUR_USERNAME and YOUR_REPO_NAME with your GitHub details
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-
-# 6. Push your project to GitHub
-git push -u origin main
-```
-
-> **Note on Git installation:** If `git` is not recognized in your terminal, download and install [Git for Windows](https://git-scm.com/download/win), restart your terminal or VS Code, and re-run the commands above. Alternatively, you can use [GitHub Desktop](https://desktop.github.com/) to publish the folder with a click.
-
----
-
-## 📄 License
-
-This project is licensed under the [ISC License](LICENSE). Feel free to customize and extend it for your own personal or educational projects!
